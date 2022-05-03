@@ -1,0 +1,3 @@
+docker run --name c1 centos:7 /bin/hostname
+docker run --name webserver -p 80:80 -v webdata:/ nginx:1.14
+docker run --name db - v db_data:/v/li/my --restart=always MYSQL_ROOt_PASSWORD=somwordpress mysql:5.7
